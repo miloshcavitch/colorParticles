@@ -71,7 +71,7 @@
         this.y += this.dy;
         this.dy += gravity;
         if ((this.y >= canvas.height - this.size && this.dy > 0) || (this.y <= this.size && this.dy < 0) ){
-          this.dy = this.dy * -1;
+          this.dy = this.dy * -0.7;
         }
         if ((this.x >= canvas.width - this.size && this.dx > 0) || (this.x <= this.size && this.dx < 0)){
           this.dx = this.dx * -1;
